@@ -1,195 +1,182 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Varkala Pavan Kumar | Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--Navigation -->
-        <nav>
-            <h2>Pavan Kumar</h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Varkala Pavan Kumar - Computer Science & Engineering student, developer and AI enthusiast.">
+    <title>Varkala Pavan Kumar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-            <div>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#leetcode">LeetCode</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </nav>
+    <nav>
+        <a class="brand" href="#home">Pavan<span>.</span></a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#leetcode">LeetCode</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-        <!-- hero section -->
-        <section id="home">
-            <h1>Hi, I'm Varkala Pavan Kumar</h1>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Varkala Pavan Kumar</span></h1>
+                <h2>Computer Science & Engineering Student</h2>
+                <p class="hero-text">
+                    I build practical software projects, solve Data Structures & Algorithms
+                    problems, and explore AI and web development.
+                </p>
 
-            <h2>Computer Science & Engineering Student</h2>
-            <p>
-                I build practical software project, solve Data Structure & Algorithms problems, and explore AI and web development.
-            </p>
-            <a href="#projects">View My Projects</a>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <div class="Project-container">
-
-                <div class="project-card">
-                    <h3>AI-Powered Multi-Domain Recommendation system</h3>
-
-                    <p>
-                        A Flask-based web application that provides preference-based recommendations across multiple domains.
-                    </p>
-
-                    <p>
-                        Technologies: Python, Flask, pandas, Html, Css
-                    </p>
-
+                <div class="hero-buttons">
+                    <a class="btn primary" href="#projects">View Projects</a>
+                    <a class="btn secondary" href="#contact">Contact Me</a>
                 </div>
 
-                <div class="project-card">
+                <div class="quick-links">
+                    <a href="https://github.com/varkalapavan0042-creator" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://leetcode.com/u/Pavan_Dark/" target="_blank" rel="noopener">LeetCode</a>
+                    <a href="https://www.linkedin.com/in/dark-devil-varkala-pavan-kumar-2a162a3b4/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
 
+            <div class="hero-photo-wrap">
+                <div class="photo-ring"></div>
+                <img src="profile.jpg" alt="Varkala Pavan Kumar" class="hero-photo">
+                <div class="photo-badge">CSE • AI • DSA</div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">ABOUT ME</p>
+                <h2>Building, learning, and solving.</h2>
+            </div>
+            <div class="about-card">
+                <p>
+                    I'm a Computer Science & Engineering student focused on software development,
+                    problem solving, AI, and web technologies. I enjoy turning ideas into practical
+                    projects while continuously improving my Data Structures & Algorithms skills.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY TOOLKIT</p>
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-container">
+                <span class="skill">C</span><span class="skill">C++</span>
+                <span class="skill">Python</span><span class="skill">SQL</span>
+                <span class="skill">HTML</span><span class="skill">CSS</span>
+                <span class="skill">Flask</span><span class="skill">Pandas</span>
+                <span class="skill">MySQL</span><span class="skill">Git</span>
+                <span class="skill">GitHub</span><span class="skill">Ollama</span>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BUILT</p>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="project-container">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>AI-Powered Multi-Domain Recommendation System</h3>
+                    <p>
+                        A Flask-based web application that provides preference-based
+                        recommendations across multiple domains.
+                    </p>
+                    <div class="tech-list">
+                        <span>Python</span><span>Flask</span><span>Pandas</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
                     <h3>Personal Offline AI Agent</h3>
                     <p>
-                        A Local AI assistant supporting text and voice interaction, persistent memory and custom commands.
+                        A local AI assistant supporting text and voice interaction,
+                        persistent memory, app/site opening, and custom commands.
                     </p>
+                    <div class="tech-list">
+                        <span>Python</span><span>Ollama</span><span>Llama 3.2</span><span>Whisper</span><span>Piper TTS</span>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-                    <p>
-                        Technologies: python, Ollama, Llama 3.2, Faster-Whisper, Piper TTS
-                    </p>
+        <section id="education" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY JOURNEY</p>
+                <h2>Education</h2>
+            </div>
+
+            <div class="education-grid">
+                <div class="education-card">
+                    <span class="edu-year">2023 — 2027</span>
+                    <h3><a href="https://maps.app.goo.gl/RMs5rVCxPcPrzEgK8" target="_blank" rel="noopener">Brilliant Institute of Engineering and Technology ↗</a></h3>
+                    <p>B.Tech — Computer Science and Engineering</p>
+                    <strong>CGPA: EXPECTED 7.8</strong>
                 </div>
 
-            </div>
-
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <span class="skill">C</span>
-                <span class="skill">C++</span>
-                <span class="skill">Python</span>
-                <span class="skill">SQL</span>
-                <span class="skill">HTML</span>
-                <span class="skill">CSS</span>
-                <span class="skill">Flask</span>
-                <span class="skill">Pandas</span>
-                <span class="skill">MySQL</span>
-                <span class="skill">Git</span>
-                <span class="skill">GitHub</span>
-                <span class="skill">Ollama</span>
-
-            </div>
-        </section>
-
-        <section id="education">
-
-            <h2>Education</h2>
-
-            <div class="education-card">
-                
-                <h3>
-                    <a href="https://maps.app.goo.gl/RMs5rVCxPcPrzEgK8" target="_blank">
-                        Brilliant Institute of Engineering and Technology
-                    </a>
-                </h3>
-                    
-                    <p>B.Tech - Computer Science and Engineering</p>
-                    
-                    <p>2023 - 2027 | CGPA: 6.8</p>
-                    
-            </div>
-
-            <div class="education-card">
-
-                <h3>
-                    <a href="https://maps.app.goo.gl/MZae8y1SCxYuysaWA" target="_blank">
-                        Sri-Chaitnaya Junier College
-                    </a>
-                </h3>
-            <p>Intermediate | 55%</p>
-
-            </div>
-
-            <div class="education-card">
-
-                <h3>
-                    <a href="https://maps.app.goo.gl/1F6b1LY4sWsBPYbb6" target="_blank">
-                        Shanthi Nikethan Talent High School
-                    </a>
-                </h3>
-
-                <p>Secondary School | 83%</p>
-
-            </div>
-
-        </section>
-
-        <section id="leetcode">
-
-            <h2>Problem Solving</h2>
-
-            <p>
-                I regularly practice Data Structures and Algorithms
-                on LeetCode.
-            </p>
-
-            <div class="leetcode-stats">
-
-                <div>
-                    <h3>102</h3>
-                    <p>Problems Solved</p>
+                <div class="education-card">
+                    <span class="edu-year">Intermediate</span>
+                    <h3><a href="https://maps.app.goo.gl/MZae8y1SCxYuysaWA" target="_blank" rel="noopener">Sri Chaitanya Junior College ↗</a></h3>
+                    <p>Intermediate</p>
+                    <strong>55%</strong>
                 </div>
 
-                <div>
-                    <h3>182</h3>
-                    <p>Submissions</p>
+                <div class="education-card">
+                    <span class="edu-year">Secondary School</span>
+                    <h3><a href="https://maps.app.goo.gl/1F6b1LY4sWsBPYbb6" target="_blank" rel="noopener">Shanthi Nikethan Talent High School ↗</a></h3>
+                    <p>Secondary School</p>
+                    <strong>83%</strong>
                 </div>
-
             </div>
-
-            <a href="https://leetcode.com/u/Pavan_Dark/" target="_blank">
-                View My LeetCode Profile
-            </a>
-
         </section>
-        <section id="contact">
 
-            <h2>Contact Me</h2>
+        <section id="leetcode" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">PROBLEM SOLVING</p>
+                <h2>LeetCode</h2>
+            </div>
+            <div class="leetcode-card">
+                <p>I regularly practice Data Structures and Algorithms on LeetCode.</p>
+                <div class="leetcode-stats">
+                    <div><strong>100+</strong><span>Problems Solved</span></div>
+                    <div><strong>150+</strong><span>Submissions</span></div>
+                </div>
+                <a class="btn primary" href="https://leetcode.com/u/Pavan_Dark/" target="_blank" rel="noopener">View LeetCode Profile ↗</a>
+            </div>
+        </section>
 
-            <p>
-                I'm open to entry-level software development
-                opportunities and technical discussions.
-            </p>
-
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+            </div>
+            <p>I'm open to entry-level software development opportunities and technical discussions.</p>
             <div class="contact-links">
-
-                <a href="mailto:VARKALAPAVAN0042@GMAIL.COM">
-                    Email
-                </a>
-
-                <a href="tel:9390797880">
-                    Phone
-                </a>
-
-                <a href="https://github.com/varkalapavan0042-creator"
-                    target="_blank">
-                    GitHub
-                </a>
-
-                <a href="https://www.linkedin.com/in/dark-devil-varkala-pavan-kumar-2a162a3b4/"
-                    target="_blank">
-                    LinkedIn
-                </a>
-
-                <a href="https://leetcode.com/u/Pavan_Dark/"
-                    target="_blank">
-                    LeetCode
-                </a>
-
+                <a href="mailto:VARKALAPAVAN0042@GMAIL.COM">Email</a>
+                <a href="tel:9390797880">Phone</a>
+                <a href="https://github.com/varkalapavan0042-creator" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/dark-devil-varkala-pavan-kumar-2a162a3b4/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://leetcode.com/u/Pavan_Dark/" target="_blank" rel="noopener">LeetCode</a>
             </div>
-
         </section>
-    </body>
+    </main>
+
+    <footer>
+        <p>© 2026 Varkala Pavan Kumar • Built with HTML & CSS</p>
+    </footer>
+
+</body>
 </html>
